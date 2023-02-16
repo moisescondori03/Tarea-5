@@ -1,0 +1,97 @@
+En ésta tarea se le dará estilos al header, footer y al formulario.
+
+En el archivo style ya creado se agregarán las modificaciones.
+
+Se le asignará una clase a la etiqueta header y se le dará un color de fondo conveniente con
+la página. Además, se dará un alto a gusto y el ancho del 100% de la pantalla.
+
+Con el footer se hará lo mismo, se le agrega una clase y se le dará color de fondo, ancho del 100%
+y altura conveniente con la página.
+Recordá que hay tres opciones para agregar colores: hexadecimal, rgb o con su nombre en inglés.
+
+Al formulario, por su parte, se le agrega un borde a gusto. En la próxima clase se adquirirá el
+conocimiento para darle más formato.
+
+Con respecto a los ítems de la lista, por el momento quedarán uno abajo de otro pero en la
+próxima tarea se resolverá.
+
+😲 Un secreto: si queres ocultar los puntos de la lista, agregar en la clase de la lista desordenada la
+propiedad list-style: none; y desaparecen
+¡Tené en cuenta que tanto al HTML como al CSS podés agregar contenido y estilos
+como lo sientas a gusto!
+
+
+Glosario de propiedades
+
+Font-family:
+Define la familia tipográfica. Es conveniente poner una lista de dos o tres tipografías separadas por
+coma, porque si el usuario no tiene instalada la tipografía que nosotros elegimos, el navegador opta
+por mostrar la siguiente que debería ser una similar, si tampoco la tiene instalada, mostrará
+la tipografía por defecto.
+
+Font-size:
+Define la familia tipográfica. Es conveniente poner una lista de dos o tres tipografías separadas por
+coma, porque si el usuario no tiene instalada la tipografía que nosotros elegimos, el navegador opta por
+mostrar la siguiente que debería ser una similar, si tampoco la tiene instalada, mostrará la
+tipografía por defecto.
+
+Color:
+Define el color de la tipografía.
+
+Width:
+Define el ancho de un elemento, el valor se puede escribir en píxeles, ems o porcentaje.
+
+Max-width o min-width:
+Definen el ancho máximo o mínimo de un elemento. Muy importante en sitios adaptables.
+
+Height:
+Define el alto de un elemento, el valor se puede escribir en píxeles, ems o porcentaje.
+
+Max-height o min-height:
+Definen el alto máximo o mínimo de un elemento. Muy importante en sitios adaptables.
+
+Margin:
+Es la distancia entre un elemento y otro (desde el borde de un elemento hacia afuera).
+
+Modo de uso
+
+Se puede usar margin, donde se le da margen a los cuatro lados.
+margin-top, donde solo le dará margen arriba.
+margin-left, donde solo le dará margen a la izquierda.
+margin-right, donde solo le dará margen a la derecha.
+
+Padding:
+Es la distancia desde el borde de un elemento hasta su contenido.
+
+Modo de uso
+Se puede usar padding, donde se le da relleno a los cuatro lados.
+padding-top, donde solo le dará relleno arriba.
+padding-left, donde solo le dará relleno a la izquierda.
+padding-right, donde solo le dará relleno a la derecha.
+
+Border:
+Define el borde de un elemento, su color, su estilo y grosor.
+
+Modo de uso
+Se puede usar border, donde se le da borde a los cuatro lados.
+border-top, donde solo le dará borde arriba.
+border-left, donde solo le dará borde a la izquierda.
+border-right, donde solo le dará borde a la derecha.
+border-bottom, donde solo le dará borde abajo.
+
+div {
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+}
+
+Background:
+Define los fondos de un objeto. El fondo puede ser una imagen o un color. El color puede ser pleno
+o degradado. La imagen se puede repetir formando una trama (es lo que ocurre por defecto) o se
+puede especificar que no repita y que se coloque en determinada posición.
+
+Imagen de fondo:
+La propiedad establece una o más imágenes de fondo en un elemento.
+
+Background-color:
+La propiedad establece el color de fondo de un elemento.
