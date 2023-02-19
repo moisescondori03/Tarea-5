@@ -95,3 +95,19 @@ La propiedad establece una o más imágenes de fondo en un elemento.
 
 Background-color:
 La propiedad establece el color de fondo de un elemento.
+-------------------------------------------------------------------------------------------------
+Otras propiedades :
+
+BOX-SIZING :La propiedad CSS box-sizing  debe calcular el ancho y alto total de un elemento.
+
+La propiedad box-sizing puede ser usada para ajustar el siguiente comportamiento:
+
+CONTENT-BOX  es el comportamiento CSS por defecto para el tamaño de la caja (box-sizing). Si
+se define el ancho de un elemento en 100 pixeles, la caja del contenido del elemento tendrá 
+100 pixeles de ancho, y el ancho de cualquier borde o relleno ser añadirá al ancho final desplegado.
+
+BORDER-BOX  le dice al navegador tomar en cuenta para cualquier valor que se especifique de borde 
+o de relleno para el ancho o alto de un elemento. Es decir, si se define un elemento con un ancho
+de 100 pixeles. Esos 100 pixeles incluíran cualquier borde o relleno que se añadan, y la caja de
+contenido se encogerá para absorber ese ancho extra. Esto típicamente hace mucho más fácil 
+dimensionar elementos.

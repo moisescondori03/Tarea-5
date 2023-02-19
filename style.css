@@ -1,8 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Inconsolata:wght@400;700 & display=swap');
 /*font-family: 'Inconsolata', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+*{
+    margin: 0;
+}
 body{
-    
+   
     font-family: 'Inconsolata:wght@400',monospace;
 }
 
@@ -25,6 +30,31 @@ propiedad list-style: none; y desaparecen*/
 }
 .main-header_title{
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    
+}
+/*=================================
+    ESTILOS: MAIN
+==================================*/
+.shop-img{
+    object-fit: cover;
+
+   
+    padding: 10px;
+}
+.shop-product{
+    border: 1px solid black;
+    /*padding: 20px;*/
+    margin: 20px;
+    background-color: orangered;
+}
+/*.container-product{
+    
+    
+}*/
+.main-title{
+    margin: 20px;
 }
 
 /*=================================
@@ -37,10 +67,11 @@ Recordá que hay tres opciones para agregar colores: hexadecimal, rgb o con su n
     background-color: black;
     width: 100%;
     height: 50px;
+    margin-top: 20px;
 }
 .copy{
     color: white;
-    padding-top: 16px;
+    
     
 }
 
@@ -96,4 +127,59 @@ próxima tarea se resolverá.*/
     border-style: solid;
     border-color: black;
     border-width: 3px;
+    margin: 20px;
 }
+/*=================================
+    ESTILOS: ASIDE
+==================================*/
+.mark-art{
+    border: 1px solid black;
+    background-color: deepskyblue;
+    margin: 20px;
+
+}
+.mark-img{
+    object-fit: cover;
+   padding: 10px;
+}
+/*.container-mark{
+    
+    
+}*/
+.aside-title{
+    margin: 20px;
+}
+/*=================================
+    ESTILOS: MARCAS
+==================================*/
+
+/* RAY BAN*/
+
+.ray-img{
+    object-fit: cover;
+    /*margin: 10px;*/
+}
+.ray-product{
+    border: 1px solid black;
+    margin: 20px;
+}
+.ray-title{
+    margin: 20px;
+}
+
+/*OAKLEY*/
+
+.oakley-img{
+    object-fit: cover;
+}
+
+.oakley-title{
+    margin: 20px;
+
+}
+.oakley-product{
+    border: 1px solid black;
+    margin: 20px;
+}
+
+
